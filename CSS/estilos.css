@@ -1,0 +1,64 @@
+@media (min-width:1146px) and (max-width:2000px){
+    
+    .p{
+        margin-left: 35%;
+    }
+    .tabla{
+        margin: 0px;
+        padding: 0px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    tabla{
+        width: 80%;
+        border-collapse: collapse;
+        border: 3px solid black;
+    }
+    th{
+        background-color: rgba(196, 35, 236, 0.555);
+        color: rgb(252, 252, 252);
+        border: 1px solid black;
+    }
+    td{
+        padding: 10px;
+        text-align: center;
+        border: 1px solid black;
+    }   
+    tr:nth-child(even){
+        background-color:  rgba(139, 35, 236, 0.534);
+    }
+    .contenedor{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .descripcion{
+        width: 40%;
+    }
+    .tarjeta{
+        display: none;
+    }
+}
+@media (min-width:300px) and (max-width:1145px){
+    .p{
+        margin-left: 25%;
+    }
+    .id{
+        border: 1px solid rgb(0, 0, 0);
+        background-color: rgba(252, 73, 213, 0.541);
+        text-align: center;
+        color:  rgb(0, 0, 0);
+    }
+    .I{
+        border: 3px solid rgb(0, 0, 0);
+        margin-top: 10px;
+        width: 300px;
+        height: 300px;
+    }
+    .tarjeta{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .contenedor{
+        display: none;
+    }
+}
